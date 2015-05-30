@@ -11,7 +11,8 @@ markup languages like Markdown and Textile to generate an HTML slideshow.
 
 To see a demo of the site, click
 [here](http://jusjmkim.github.io/slideshow-modern/). The markdown and html
-behind this site can be found in the gh-pages branch.
+behind this site can be found in the [gh-pages
+branch](https://github.com/jusjmkim/slideshow-modern/tree/gh-pages).
 
 ## Try It Yourself - How To Use The Modern Template Pack
 If you want to try it yourself, install (fetch) the new template pack. Issue the
@@ -42,8 +43,8 @@ new slides. So, to build the slideshow, run <br \>
 
 This allows you to pass in HTML classes into each slide. This template pack
 supports the `cover` and `large` classes. To see an example of this, go to the
-`gh-pages` branch to see the markdown for the demo site mentioned in the Intro
-section.
+[gh-pages branch](https://github.com/jusjmkim/slideshow-modern/tree/gh-pages) to
+see the markdown for the demo site mentioned in the Intro section.
 
 ## Questions? Concerns?
 Questions? Comments? Send them along to the [Free Web Slide Show Alternatives
