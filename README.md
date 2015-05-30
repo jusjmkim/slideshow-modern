@@ -11,22 +11,22 @@ markup languages like Markdown and Textile to generate an HTML slideshow.
 
 ## Try It Yourself - How To Use The Modern Template Pack
 If you want to try it yourself, install (fetch) the new template pack. Issue the
-command:
-    $ slideshow install modern
+command:<br \>
+`$ slideshow install modern`
 
-Or as an alternative clone the template pack using git. Issue the commands:
-    $ cd ~/.slideshow/templates
-    $ git clone git://github.com/slideshow-s9/slideshow-modern.git
+Or as an alternative clone the template pack using git. Issue the commands:<br \>
+`$ cd ~/.slideshow/templates`<br \>
+`$ git clone git://github.com/slideshow-s9/slideshow-modern.git`
 
 To check if the new template got installed, use the list command:
-    $ slideshow list
+`$ slideshow list`
 
-Listing something like:
-    Installed templates include:
-       modern.txt (~/.slideshow/templates/modern/modern.txt)
+Listing something like:<br \>
+`Installed templates include:`<br \>
+`modern.txt (~/.slideshow/templates/modern/modern.txt)`
 
-Now you're ready to use it using the -t/--template switch. Example:
-    $ slideshow build tutorial -t modern
+Now you're ready to use it using the -t/--template switch. Example:<br \>
+`$ slideshow build tutorial -t modern`
 
 That's it.
 
