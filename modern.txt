@@ -1,4 +1,4 @@
-#  S6 blank template package manifest
+#  Modern template package manifest
 
 __file__.html   slides.html.erb
 __file__.css    style.css.erb

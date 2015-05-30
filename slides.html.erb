@@ -18,7 +18,7 @@
 <script>
   $(document).ready( function() {
     Slideshow.init();
-  } );
+  });
 
   <%= content_for :js %>
 </script>
@@ -33,16 +33,10 @@
 </head>
 <body>
 
-<div class="layout"> 
-  <div id="header"></div>
-  <div id="footer">
-    <h1><%= @headers['footer'] %></h1>
-    <h2><%= @headers['subfooter'] %></h2>
-  </div>
-</div>
+<div class="layout"></div>
 
 <div class="presentation">
-   
+
 <%= @content %>
 
 </div><!-- presentation -->

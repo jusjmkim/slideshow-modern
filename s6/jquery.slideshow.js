@@ -8,11 +8,8 @@ var Slideshow = {};
  */
 
 Slideshow.transition = function( $from, $to ) {
-  // $from.hide();
-  // $to.show();
-  
   $from.hide();
-  $to.show(); 
+  $to.show();
 }
 
 /***********************
@@ -24,13 +21,13 @@ Slideshow.transition = function( $from, $to ) {
 function transitionSlideUpSlideDown( $from, $to ) {
    $from.slideUp( 500, function() { $to.slideDown( 1000 ); } );
 }
-	
+
 function transitionFadeOutFadeIn( $from, $to ) {
-	 $from.fadeOut( 500 );
-   $to.fadeIn( 500 );			
+   $from.fadeOut( 500 );
+   $to.fadeIn( 500 );
 }
 
-function transitionScrollUp( $from, $to ) {   
+function transitionScrollUp( $from, $to ) {
   var cheight = $from.outerHeight();
 
   // hide scrollbar during animation
@@ -524,11 +521,11 @@ function addSlideIds() {
      toggle();
    else if( settings.mode == 'autoplay' )
      toggleAutoplay();
-  
-  
+
+
    if( settings.debug == true )
      doDebug();
-                
+
    document.onkeyup = keys;
 
 } // end Slideshow
