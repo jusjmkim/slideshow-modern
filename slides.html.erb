@@ -12,16 +12,7 @@
 <link rel="stylesheet" href="s6/screen.css"         media="screen"     id="styleScreen">
 <link rel="stylesheet" href="s6/print.css"          media="print">
 
-<!-- S6 JS -->
-<script src="s6/jquery.js"></script>
-<script src="s6/jquery.slideshow.js"></script>
-<script>
-  $(document).ready( function() {
-    Slideshow.init();
-  });
 
-  <%= content_for :js %>
-</script>
 
 <!-- Better Browser Banner for Microsoft Internet Explorer (IE) -->
 <!--[if IE]>
@@ -40,5 +31,15 @@
 <%= @content %>
 
 </div><!-- presentation -->
+<!-- S6 JS -->
+<script src="s6/jquery.js"></script>
+<script src="s6/jquery.slideshow.js"></script>
+<script>
+  $(document).ready( function() {
+    Slideshow.init();
+  });
+
+  <%= content_for :js %>
+</script>
 </body>
 </html>

@@ -86,26 +86,27 @@ p.tiny     { font-size: 82%; }
 .step { color: silver; }
 /* or hide next steps e.g.  .step { visibility: hidden; } */
 .stepcurrent { color: black; }
+<% content_for :css do %>
+  #currentSlide {
+    font-size: 2em;
+  }
 
-#currentSlide {
-  font-size: 2em;
-}
+  .cover h1 {
+    font-size: 6em;
+  }
 
-.cover h1 {
-  font-size: 7em;
-}
+  .large {
+    font-size: 1.5em;
+  }
 
-.large {
-  font-size: 1.5em;
-}
+  .snippet {
+    background-color: #eee;
+    font-size: 0.9em;
+  }
 
-.snippet {
-  background-color: #eee;
-  font-size: 0.9em;
-}
-
-ul li ul li {
-  font-size: 0.8em;
-}
+  ul li ul li {
+    font-size: 0.8em;
+  }
+<% end %>
 
 <%= content_for :css %>
