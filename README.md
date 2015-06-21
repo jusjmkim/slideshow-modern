@@ -42,7 +42,7 @@ new slides. So, to build the slideshow, run <br \>
 `$ slideshow build tutorial --slide -t modern`
 
 This allows you to pass in HTML classes into each slide. This template pack
-supports the `cover` and `large` classes. To see an example of this, go to the
+supports the `cover`, `large`, `medium`, and `small` classes. To see an example of this, go to the
 [gh-pages branch](https://github.com/jusjmkim/slideshow-modern/tree/gh-pages) to
 see the markdown for the demo site mentioned in the Intro section.
 
